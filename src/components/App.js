@@ -5,7 +5,6 @@ import NumResults from "./NavBar/NumResults";
 import Box from "./Box";
 import Logo from "./NavBar/Logo";
 import Search from "./NavBar/Search";
-import WatchBox from "./WatchBox";
 import MovieList from "./MovieList";
 import WatchedSummary from "./WatchedSummary";
 import WatchedMovieList from "./WatchedMovieList";
