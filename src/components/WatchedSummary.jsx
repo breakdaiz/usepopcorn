@@ -1,6 +1,9 @@
 import React from "react";
 
-const WatchedSummary = ({ average, watched }) => {
+const average = arr =>
+  arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
+
+const WatchedSummary = ({ watched }) => {
   const avgImdbRating = average(watched.map(movie => movie.imdbRating));
   const avgUserRating = average(watched.map(movie => movie.userRating));
   const avgRuntime = average(watched.map(movie => movie.runtime));
